@@ -1,5 +1,5 @@
 [~/Dropbox/src/javascript/PLgrado/ini(master)]$ cat ini.js 
-"use ______"; // Use ECMAScript 5 strict mode in browsers that support it
+"use strict"; // Use ECMAScript 5 strict mode in browsers that support it
 
 $(document)._____(function() {
    $("#fileinput").______(calculate);
