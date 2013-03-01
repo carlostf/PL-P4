@@ -42,7 +42,7 @@ function tokensToString(tokens) {
 function lexer(input) {
   var blanks         = /^\s+/;
   var iniheader      = /^\[([^\]\r\n]+)\]/;
-  var comments       = /^________/;
+  var comments       = /^[]/;
   var nameEqualValue = /^________________________/;
   var any            = /^_______/;
 
